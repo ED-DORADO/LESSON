@@ -1,9 +1,15 @@
 package org.example
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 fun main() {
 
+    val welcomeMessage: String = "*** YOUR ORDER (quantity) ***"
+    println(welcomeMessage)
 
+    var numberOfOrder: Int = 75
+    println(numberOfOrder)
 
-}
+    val endMessage: String = "*** THANK YOU FOR CHOOSE US ***"
+    println(endMessage)
+
+    }
