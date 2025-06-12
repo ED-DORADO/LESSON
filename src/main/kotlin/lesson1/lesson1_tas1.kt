@@ -2,7 +2,13 @@ package org.example.lesson1
 
 fun main() {
 
-println("Тестовое решение к уроку 1 к задаче 1")
-    println("ТЕКСТ ПЛЮСОМ")
+    val welcomeMessage: String = "*** YOUR ORDER (quantity) ***"
+    println(welcomeMessage)
+
+    var numberOfOrder: Int = 75
+    println(numberOfOrder)
+
+    val endMessage: String = "*** THANK YOU FOR CHOOSE US ***"
+    println(endMessage)
 
 }
